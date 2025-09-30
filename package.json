@@ -1,0 +1,18 @@
+{
+  "name": "this-is-ts",
+  "version": "1.0.0",
+  "description": "A comprehensive guide to TypeScript fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": ["typescript", "fundamentals", "tutorial", "learning"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.9.3"
+  }
+}
